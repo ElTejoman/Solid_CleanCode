@@ -4,18 +4,18 @@
     const celsiusTemperature = [33.6, 12.34];
 
     // Dirección ip del servidor
-    const ipAdress = '123.123.123.123';
+    const serverIp = '123.123.123.123';
 
     // Listado de usuarios
     const userData = [{id: 1, email: 'fernando@google.com'},{ id: 2, email: 'juan@google.com' }, { id: 3, email: 'melissa@google.com' }];
 
     // Listado de emails de los usuarios
-    const emailNames = userData.map( u => u.email );
+    const userEmails = userData.map( user => user.email );
 
     // Variables booleanas de un video juego
     const canJump = false;
-    const isRun = true;
-    const isEmpty = true;
+    const canRun = true;
+    const hasItems = true;
     const isLoading = false;
 
     // Otros ejercicios
@@ -30,17 +30,17 @@
 
     // Funciones
     // Obtiene los libros
-    function getBook() {
+    function getBooks() {
         throw new Error('Function not implemented.');
     }
 
     // obtiene libros desde un URL
-    function getBooksOfUrl( url: string) {
+    function getBooksByUrl( url: string) {
         throw new Error('Function not implemented.');
     }
     
     // obtiene el área de un cuadrado basado en sus lados
-    function squareArea( sides: number ) {
+    function getSquareAreaBySide( side: number ) {
         throw new Error('Function not implemented.');
     }
 
